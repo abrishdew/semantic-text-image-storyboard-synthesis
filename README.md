@@ -35,3 +35,6 @@ landing page or the Ending page). We can use the image search on image to
 check and examine the segmented images.
 Progress in Screenshots- Generated Images from the Concept and
 Framework
+2) Image Composition
+3) Storyboard Creation
+All tasks have different underlists and we will approach all as we dive deeper into the project. But for now we have completed the image generation part and seen some potential results for a good Storyboard creation.
