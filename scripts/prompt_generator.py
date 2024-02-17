@@ -1,5 +1,10 @@
 import main
+from main import APIKeys  
 
+# Create an instance of the APIKeys class
+api_keys = APIKeys()
+
+api_keys.set_openai_api_key()
 #define a template
 template = "You are a prompt generator given a descrption. The prompt will be used to generate descriptive quality image. What is a concise prompt for the description {description}?"
 
