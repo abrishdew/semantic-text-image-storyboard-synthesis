@@ -33,8 +33,66 @@ they are handed out to the LLMs for image generation.
 dimensions of images we find on a certain image on a Storyboard(either the
 landing page or the Ending page). We can use the image search on image to
 check and examine the segmented images.
-Progress in Screenshots- Generated Images from the Concept and
-Framework
 2) Image Composition
 3) Storyboard Creation
-All tasks have different underlists and we will approach all as we dive deeper into the project. But for now we have completed the image generation part and seen some potential results for a good Storyboard creation.
+
+## Usage
+
+This project aims to automate the end-to-end process of advertising production by converting textual advertisement concepts and assets descriptions into visually compelling storyboards.
+
+## Prerequisites
+
+- Python  3.x
+- A virtual environment (optional but recommended)
+
+## Setup
+
+1. Clone the repository:
+
+git clone https://github.com/yourusername/semantic-text-image-storyboard-synthesis.git
+
+2. Change directory
+
+cd semantic-text-image-storyboard-synthesis
+
+3. Create and Activate a virtual environment (optional but recommended):
+
+python3 -m venv venv
+*On Win:* 
+.\venv\Scripts\activate
+*On Linux or Macos:*
+ source venv/bin/activate
+
+4. Install the required dependencies:
+
+pip install -r requirements.txt
+
+5. Set up the environment variables:
+   - Create a `.env` file in the project root directory.
+   - Add the following lines to the `.env` file, replacing the placeholders with your actual API keys:
+     ```
+OPENAI_API_KEY=your_openai_api_key 
+HUGGINGFACEHUB_API_KEY=your_huggingfacehub_api_key 
+SERPAPI_API_KEY=your_serpapi_api_key
+
+6. Run the main script:
+
+python scripts/main.py
+
+
+## Usage
+
+To use the `APIKeys` class in your scripts, import it and create an instance:
+
+python from scripts.api_keys import APIKeys
+
+api_keys = APIKeys() api_keys.set_openai_api_key()
+
+## Contributing
+
+If you're open to contributions, please follow the standard fork, branch, and pull request workflow.
+
+## License
+
+This project is licensed under the MIT License.
+
