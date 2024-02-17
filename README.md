@@ -58,10 +58,15 @@ cd semantic-text-image-storyboard-synthesis
 3. Create and Activate a virtual environment (optional but recommended):
 
 python3 -m venv venv
+
+TO Activate
 *On Win:* 
+
 .\venv\Scripts\activate
+
 *On Linux or Macos:*
- source venv/bin/activate
+
+source venv/bin/activate
 
 4. Install the required dependencies:
 
